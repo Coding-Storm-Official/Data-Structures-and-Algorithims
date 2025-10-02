@@ -1,4 +1,4 @@
-#My approach - O(min(a,b)) [Brute-force] 
+#My approach - O(min(a,b)) [Brute-force]  
 a=int(input("A: "))
 b=int(input("B: "))
 fc = max(a,b)
@@ -22,4 +22,5 @@ b = int(input())
 while b:
     a, b = b, a % b
 print(a)
+
 
