@@ -15,4 +15,10 @@ for i in range(len(fcd)):
 print(ans)
 
 
-#
+
+#Euclidean algorithm - O(log(min(a,b)))
+a = int(input())
+b = int(input())
+while b:
+    a, b = b, a % b
+print(a)
